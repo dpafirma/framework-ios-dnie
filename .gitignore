@@ -1,0 +1,57 @@
+# === Xcode ===
+DerivedData/
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xcscmblueprint
+*.xcuserstate
+
+# === macOS ===
+.DS_Store
+
+# === Logs y temporales ===
+*.log
+*.tmp
+*.swp
+
+# === IDEs ===
+.idea/
+
+# === CocoaPods ===
+Pods/
+Podfile.lock
+
+# === Carthage ===
+Carthage/Build/
+
+# === Swift Package Manager ===
+.build/
+Package.resolved
+
+# === Archivos generados ===
+*.hmap
+*.ipa
+*.xcarchive
+*.dSYM
+*.dSYM.zip
+
+# === Xcode Workspace ===
+*.xcworkspace/
+xcshareddata/
+
+# === Previews ===
+*.preview-thumbnails
+
+# === Playgrounds ===
+timeline.xctimeline
+playground.xcworkspace
+
+# === Fastlane ===
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
