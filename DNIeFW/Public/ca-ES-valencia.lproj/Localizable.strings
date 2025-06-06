@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  DNIeFW
+
+  Created by Desarrollo Abamobile on 21/4/25.
+  
+*/
+
+/* Error when an unsupported NFC tag is detected */
+"nfc_unsupported_tag_error" = "Etiqueta NFC no compatible. Utilitzeu un DNIe compatible.";
+
+/* Error when no NFC tag is detected */
+"nfc_no_tag_error" = "No s’ha detectat cap etiqueta NFC. Torneu-ho a intentar.";
+
+/* Error shown when more than one NFC tag is detected */
+"nfc_multiple_tags_error" = "S’han detectat diverses etiquetes NFC. Escanegeu-ne només una.";
+
+/* Initial warning before starting NFC reading */
+"nfc_dni_warning" = "Apropieu el DNIe a la part posterior del telèfon.";
+
+/* Message shown when DNIe NFC session is active */
+"nfc_dni_active_conexion_warning" = "DNIe connectat. No retireu la targeta.";
+
+/* Error message shown when NFC connection fails */
+"nfc_connection_error" = "No s’ha pogut connectar amb l’etiqueta NFC.";
+
+/* Success message displayed when NFC connection is successful */
+"nfc_connection_success" = "S'ha completat el flux NFC del DNIe.";

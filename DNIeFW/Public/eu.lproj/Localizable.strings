@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  DNIeFW
+
+  Created by Desarrollo Abamobile on 21/4/25.
+  
+*/
+
+/* Error when an unsupported NFC tag is detected */
+"nfc_unsupported_tag_error" = "Ez da NFC etiketa onartua. Erabili DNIe bateragarri bat.";
+
+/* Error when no NFC tag is detected */
+"nfc_no_tag_error" = "Ez da NFC etiketarik detektatu. Saiatu berriro.";
+
+/* Error shown when more than one NFC tag is detected */
+"nfc_multiple_tags_error" = "NFC etiketa bat baino gehiago detektatu da. Eskaneatu bakarra.";
+
+/* Initial warning before starting NFC reading */
+"nfc_dni_warning" = "Hurbildu zure DNIe telefonoaren atzealdera.";
+
+/* Message shown when DNIe NFC session is active */
+"nfc_dni_active_conexion_warning" = "DNIe konektatuta dago. Ez kendu txartela.";
+
+/* Error message shown when NFC connection fails */
+"nfc_connection_error" = "Huts egin du NFC etiketarekin konektatzean.";
+
+/* Success message displayed when NFC connection is successful */
+"nfc_connection_success" = "DNIe NFC prozesua arrakastaz burutu da.";
