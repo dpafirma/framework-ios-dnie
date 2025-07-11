@@ -21,9 +21,6 @@
 		83C11E9B2DB79BAC00660F78 /* HandleThirdPartyError.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C11E9A2DB79BAC00660F78 /* HandleThirdPartyError.h */; };
 		83C11ED92DB8E2E000660F78 /* DNIeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C11ED82DB8E2E000660F78 /* DNIeLogger.m */; };
 		83C11EDB2DB8E2ED00660F78 /* DNIeLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C11EDA2DB8E2ED00660F78 /* DNIeLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83C11EDF2DB8E3D200660F78 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C11EDC2DB8E3D100660F78 /* libcrypto.a */; };
-		83C11EE02DB8E3D200660F78 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C11EDD2DB8E3D100660F78 /* libssl.a */; };
-		83C11EE22DB8E41A00660F78 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C11EE12DB8E41A00660F78 /* libz.tbd */; };
 		83C11F162DBA1E4E00660F78 /* README.docc in Sources */ = {isa = PBXBuildFile; fileRef = 83C11F152DBA1E4E00660F78 /* README.docc */; };
 		83C13DEB2DBA330600660F78 /* CeresLoadDataApduCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C1336F2DBA330600660F78 /* CeresLoadDataApduCommand.h */; };
 		83C13DEC2DBA330600660F78 /* CeresLoadDataApduCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C133702DBA330600660F78 /* CeresLoadDataApduCommand.m */; };
@@ -2604,9 +2601,6 @@
 		83C11E9A2DB79BAC00660F78 /* HandleThirdPartyError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandleThirdPartyError.h; sourceTree = "<group>"; };
 		83C11ED82DB8E2E000660F78 /* DNIeLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNIeLogger.m; sourceTree = "<group>"; };
 		83C11EDA2DB8E2ED00660F78 /* DNIeLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNIeLogger.h; sourceTree = "<group>"; };
-		83C11EDC2DB8E3D100660F78 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
-		83C11EDD2DB8E3D100660F78 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
-		83C11EE12DB8E41A00660F78 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
 		83C11F152DBA1E4E00660F78 /* README.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = README.docc; sourceTree = "<group>"; };
 		83C1336F2DBA330600660F78 /* CeresLoadDataApduCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CeresLoadDataApduCommand.h; sourceTree = "<group>"; };
 		83C133702DBA330600660F78 /* CeresLoadDataApduCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CeresLoadDataApduCommand.m; sourceTree = "<group>"; };
@@ -5174,9 +5168,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83C11EE22DB8E41A00660F78 /* libz.tbd in Frameworks */,
-				83C11EDF2DB8E3D200660F78 /* libcrypto.a in Frameworks */,
-				83C11EE02DB8E3D200660F78 /* libssl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5224,8 +5215,6 @@
 		83C11EDE2DB8E3D100660F78 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				83C11EDC2DB8E3D100660F78 /* libcrypto.a */,
-				83C11EDD2DB8E3D100660F78 /* libssl.a */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -9069,7 +9058,6 @@
 		83C5DBD92DA9323A00E90ECB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				83C11EE12DB8E41A00660F78 /* libz.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
